@@ -1,0 +1,17 @@
+{
+  "name": "sirene-app",
+  "version": "1.0.0",
+  "description": "Parallel writes to MongoDB using worker threads and PM2 for monitoring",
+  "scripts": {
+    "start": "node --experimental-worker main.js"
+  },
+  "repository": {},
+  "keywords": [],
+  "author": "lvndry",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mongoose": "^6.0.11",
+    "pm2": "^5.3.1"
+  }
+}
